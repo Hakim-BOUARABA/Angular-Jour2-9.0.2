@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-fiche',
-  template: `<div>
+  template: `<div> 
     <img [src]="urlFicheProduit" alt="" #img>
     <button (click)="show(img)">Afficher</button>
     <button (click)="hide()">Masquer</button>

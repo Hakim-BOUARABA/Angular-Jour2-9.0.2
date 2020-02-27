@@ -6,7 +6,8 @@ import { FormationComponent } from './formation/formation.component';
 import { DataService } from "./data.service";
 import { ImageComponent } from './image/image.component';
 import { CliqueComponent } from './clique/clique.component';
-import { FicheComponent } from './fiche/fiche.component'
+import { FicheComponent } from './fiche/fiche.component';
+import { StyleComponent } from './style/style.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FicheComponent } from './fiche/fiche.component'
     FormationComponent,
     ImageComponent,
     CliqueComponent,
-    FicheComponent
+    FicheComponent,
+    StyleComponent
   ],
   imports: [
     BrowserModule
