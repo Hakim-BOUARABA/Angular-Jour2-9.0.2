@@ -37,6 +37,56 @@ ng g s data
 le fichier app.module
 
 
+----------------------------
+
+de la mise en forme
+des images / icones ...
+action cliquer / ....
+formulaire 
+
+--------------------
+
+créer un nouveau composant => image
+
+ng g c image
+
+ajouter dans le fichier src/app/app.component.html
+<app-image></app-image>
+
+fermer tout 
+
+le fichier src/app/image/image.component.ts
+4 manières pour ajouter des images dans une application Angular
+
+--------------------
+
+créer un nouveau composant => clique
+ng g c clique
+
+ajouter dans le fichier src/app/app.component.html
+<app-clique></app-clique>
+
+le fichier src/app/clique/clique.component.ts
+
+----------------
+
+// créer un nouveau composant fiche
+ng g c fiche
+image 
+deux boutons
+p 
+
+si je clique sur le 1ère bouton
+affiche une description dans le p
+si je clique sur le 2ème bouton
+masque la description dans le p
+
+
+
+
+
+
+
 
 
 
