@@ -1,0 +1,44 @@
+aller dans le dossier angular
+C:\Users\stagiaire\Desktop\angular
+
+lancer un terminal
+
+ng new jour2
+Routing : N
+CSS 
+
+cd jour2
+ng serve --open (30s et 10 min)
+
+---------------------
+
+https://formation.webdevpro.net/angular
+login : angular
+mdp : angular9
+
+1 fichier src/app/app.component.html
+=> body 
+2 ng generate component formation
+ng g c formation
+attention je dois le faire dans un terminal à part
+
+3 ajouter le selector de mon composant dans 
+la vue globale src/app/app.component.html
+<app-formation></app-formation>
+
+4 créer mon service 
+créer à la main xxxx
+
+ou via le terminal
+ng generate service data
+ng g s data
+
+5 déclarer mon service dans 
+le fichier app.module
+
+
+
+
+
+
+
