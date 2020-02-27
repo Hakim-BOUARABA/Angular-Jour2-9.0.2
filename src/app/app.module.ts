@@ -7,7 +7,8 @@ import { DataService } from "./data.service";
 import { ImageComponent } from './image/image.component';
 import { CliqueComponent } from './clique/clique.component';
 import { FicheComponent } from './fiche/fiche.component';
-import { StyleComponent } from './style/style.component'
+import { StyleComponent } from './style/style.component';
+import { PortfolioComponent } from './portfolio/portfolio.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StyleComponent } from './style/style.component'
     ImageComponent,
     CliqueComponent,
     FicheComponent,
-    StyleComponent
+    StyleComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule
