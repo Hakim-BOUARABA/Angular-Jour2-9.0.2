@@ -40,24 +40,20 @@ export class PortfolioComponent  {
   titre = "Titre"
   urlImg = "https://via.placeholder.com/300x200"
   competences ;
-
   visibilityCompetence = {
     display : "none"
   }
-
   constructor(service : DataService) {
     this.competences = service.getData().liste
-   }
-
-   hide(){
+  }
+  hide(){
     this.visibilityCompetence = {
       display :"none"
     }
-   }
-
-   show(){
+  }
+  show(){
     this.visibilityCompetence = {
       display: "block"
     }
-   }
+  }
 }

@@ -8,7 +8,9 @@ import { ImageComponent } from './image/image.component';
 import { CliqueComponent } from './clique/clique.component';
 import { FicheComponent } from './fiche/fiche.component';
 import { StyleComponent } from './style/style.component';
-import { PortfolioComponent } from './portfolio/portfolio.component'
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { GalerieComponent } from './galerie/galerie.component';
+import { FinalComponent } from './final/final.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component'
     CliqueComponent,
     FicheComponent,
     StyleComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    GalerieComponent,
+    FinalComponent
   ],
   imports: [
     BrowserModule
